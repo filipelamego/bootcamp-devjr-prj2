@@ -55,6 +55,7 @@ button:hover {
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 2%, rgba(60, 20, 67, 1) 42%, rgba(101, 31, 113, 1) 100%);
     margin-top: 2rem;
     border-radius: 10px;
+    align-content: center;
 }
 
 .header {
@@ -78,8 +79,9 @@ button:hover {
 .sub-header {
     display: flex;
     flex-direction: row;
-    padding: 15px 20px;
     justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #esporte {
@@ -90,7 +92,6 @@ button:hover {
     border-radius: 10px;
     border-style: solid;
     border-width: 15px 10px 10px 10px;
-    float: left;
     width: 25%;
     padding-top: 1.2rem;
 }
@@ -103,7 +104,6 @@ button:hover {
     border-radius: 10px;
     border-style: solid;
     border-width: 15px 10px 10px 10px;
-    float: middle;
     width: 25%;
     padding-top: 1.2rem;
 }
@@ -116,9 +116,6 @@ button:hover {
     border-radius: 10px;
     border-style: solid;
     border-width: 15px 10px 10px 10px;
-    float: right;
     width: 25%;
     padding-top: 1.2rem;
 }
-
-

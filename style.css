@@ -119,3 +119,42 @@ button:hover {
     width: 25%;
     padding-top: 1.2rem;
 }
+
+@media screen and (max-width : 620px) {
+    html {
+        font-size: 12px;
+    }
+
+    .container {
+        width: 95%;
+        box-sizing: border-box;
+    }
+
+    .sub-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header-subtitle {
+        padding: 5px;
+        align-items: center;
+    }
+
+    #esporte {
+        width: 75%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+
+    }
+
+    #simulacao {
+        width: 75%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    #estrategia {
+        width: 75%;
+        box-sizing: border-box;
+    }
+}
